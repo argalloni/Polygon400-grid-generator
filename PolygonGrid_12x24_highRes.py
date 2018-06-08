@@ -14,7 +14,7 @@ The size of the array thus determines the grid resolution and the relative sizes
 light spots and spaces.
 
 After generating an ordered array of stim patterns, the order of the patterns 
-is randomly shuffled and the order with the greatest separation between 
+is randomly shuffled and the pattern with the greatest separation between 
 subsequent patterns is chosen. This array is the exported to a .txt file that
 can be read by the Polygon400.
 
@@ -34,7 +34,7 @@ np.set_printoptions(threshold=np.nan)
 """                   Grid parameters                         """
 # ---------------------------------------------------------------
 
-output_file = 'PolygonGrid_3res_separated_all.txt'
+output_file = 'PolygonGrid_test'
 stim_rows = 24
 stim_columns = 12
 grid_resolution = 3     # relative size of spots compared to the blank spaces between spots
